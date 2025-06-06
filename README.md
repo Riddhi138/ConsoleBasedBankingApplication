@@ -1,10 +1,71 @@
-Console Based Banking Application is a project based of Basic Java.
-Project Consist of 4 Packages namely:
-i. entity: Stores the model class or entity classes like User Class and Transaction Class in this Project.
-ii. main :Stores the main functionality and logic of the project like Main class in this Project.
-iii. repository: Stores the everything like classes, interface, collection of data like UserRepository class in this project.
-iv. services: Contains classes, interface related to the business logic like filtering, sorting out the functionality to use in Main class.
-Data is stored in form of Collections like List, Map, Set.
-Project consists of user & admin account which enable:
-User to login, check account balance, transfer fund, print transaction history, raise chequebook request.
-Admin to create new account, print transaction history, check account balance, approve chequebook request of user.
+# 💻 Console Based Banking Application (Java Project)
+
+This is a **Console-Based Banking Application** built using **Basic Java**, organized using the **Modular Approach** with the help of **4 Packages**:
+
+---
+
+## 📦 Project Packages
+
+### 1️⃣ `entity`
+
+🔸 Contains **model classes** (also known as entities).
+🔹 Examples in this project:
+    👤 `User` class
+    📄 `Transaction` class
+
+---
+
+### 2️⃣ `main`
+
+🔸 Stores the **core logic** and **entry point** of the application.
+🔹 Example:
+    🚀 `Main` class
+
+---
+
+### 3️⃣ `repository`
+
+🔸 Acts as the **data layer** for storing and managing information.
+🔹 Uses **Collections** like `List`, `Map`, `Set` to store data.
+🔹 Example:
+    📚 `UserRepository` class
+
+---
+
+### 4️⃣ `services`
+
+🔸 Handles the **business logic** of the application.
+🔹 Responsible for operations like filtering, sorting, and processing data.
+🔹 Interfaces and classes here are used by the `Main` class.
+
+---
+
+## 🧾 Data Storage
+
+* Data is **stored in-memory** using Java Collections such as:
+  🔹 `List`
+  🔹 `Map`
+  🔹 `Set`
+
+---
+
+## 👥 Application Users
+
+### 👤 **User Functionalities:**
+
+* 🔐 Login to account
+* 💰 Check account balance
+* 💸 Transfer funds
+* 🧾 View transaction history
+* 📝 Raise chequebook request
+
+---
+
+### 👮‍♂️ **Admin Functionalities:**
+
+* 🆕 Create new user account
+* 🔍 Check any user's account balance
+* 📑 View any user's transaction history
+* ✅ Approve chequebook requests raised by users
+
+---
